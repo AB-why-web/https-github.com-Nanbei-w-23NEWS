@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "title": "绿茵传奇 - C罗数据展示",
+    "description": "通过嵌入式框架展示C罗职业生涯数据统计，包括进球数、助攻数和荣誉记录。",
+    "link": "/practice/embed-demo",
+    "imageUrl": "/practice/images/生成C罗图片.png",
+    "tags": ["数据统计", "嵌入", "C罗传奇"]
+  },
+  {
+    "id": 2,
+    "title": "足球俱乐部管理系统",
+    "description": "基于React构建的足球俱乐部管理平台，展示球员信息、比赛安排和战术分析。",
+    "link": "/practice/my-app",
+    "imageUrl": "/practice/images/生成C罗图片 (1).png",
+    "tags": ["React", "俱乐部管理", "足球"]
+  },
+  {
+    "id": 3,
+    "title": "绿茵场地设计 - CSS基础",
+    "description": "使用CSS基础选择器设计足球场地布局，包括中圈、禁区和球门样式。",
+    "link": "/practice/03-css-01",
+    "imageUrl": "/practice/images/生成C罗图片 (2).png",
+    "tags": ["CSS", "场地设计", "基础"]
+  },
+  {
+    "id": 4,
+    "title": "足球装备展示 - 盒模型",
+    "description": "运用CSS盒模型展示足球装备，包括球衣、球鞋和护具的立体效果。",
+    "link": "/practice/03-css-02",
+    "imageUrl": "/practice/images/生成C罗图片 (3).png",
+    "tags": ["CSS", "装备展示", "盒模型"]
+  },
+  {
+    "id": 5,
+    "title": "球员阵型布局 - 定位系统",
+    "description": "利用CSS定位技术创建足球阵型图，展示4-4-2、4-3-3等经典阵型。",
+    "link": "/practice/04-css-01",
+    "imageUrl": "/practice/images/生成C罗图片 (4).png",
+    "tags": ["CSS", "阵型", "定位"]
+  },
+  {
+    "id": 6,
+    "title": "足球战术板 - 绝对定位",
+    "description": "使用绝对定位实现动态足球战术板，可拖拽球员位置进行战术演示。",
+    "link": "/practice/04-css-02",
+    "imageUrl": "/practice/images/生成C罗图片 (5).png",
+    "tags": ["CSS", "战术板", "绝对定位"]
+  },
+  {
+    "id": 7,
+    "title": "球员移动轨迹 - 相对定位",
+    "description": "通过相对定位技术展示球员在场上的移动轨迹和跑位路线。",
+    "link": "/practice/04-css-02-relative",
+    "imageUrl": "/practice/images/生成C罗图片 (6).png",
+    "tags": ["CSS", "移动轨迹", "相对定位"]
+  },
+  {
+    "id": 8,
+    "title": "足球新闻门户 - 静态版",
+    "description": "使用HTML和CSS构建足球新闻门户网站，展示最新比赛资讯和转会消息。",
+    "link": "/practice/05-news01",
+    "imageUrl": "/practice/images/生成C罗图片 (7).png",
+    "tags": ["HTML", "新闻门户", "足球资讯"]
+  },
+  {
+    "id": 9,
+    "title": "实时比分系统 - 交互版",
+    "description": "集成JavaScript实现实时比分更新，包括进球提醒和比赛状态显示。",
+    "link": "/practice/06-news01",
+    "imageUrl": "/practice/images/生成C罗图片 (8).png",
+    "tags": ["JavaScript", "实时比分", "交互"]
+  },
+  {
+    "id": 10,
+    "title": "足球社区平台 - 高级版",
+    "description": "功能丰富的足球社区平台，包含球迷讨论、比赛预测和球员评级。",
+    "link": "/practice/06-news02",
+    "imageUrl": "/practice/images/生成C罗图片 (9).png",
+    "tags": ["JavaScript", "社区", "足球平台"]
+  },
+  {
+    "id": 11,
+    "title": "球员转会系统 - 异步处理",
+    "description": "使用Promise和async/await处理球员转会信息的异步获取和更新。",
+    "link": "/practice/07-async-01",
+    "imageUrl": "/practice/images/生成C罗图片 (10).png",
+    "tags": ["JavaScript", "转会", "异步编程"]
+  },
+  {
+    "id": 12,
+    "title": "比赛数据API - 异步获取",
+    "description": "通过fetch API获取实时比赛数据，包括球员统计和比赛分析。",
+    "link": "/practice/07-async-02",
+    "imageUrl": "/practice/images/生成C罗图片 (11).png",
+    "tags": ["JavaScript", "API", "比赛数据"]
+  },
+  {
+    "id": 13,
+    "title": "绿茵起源 - 经典首页",
+    "description": "足球平台的原始静态首页，展示纯粹的足球之美和经典设计。",
+    "link": "/practice/index",
+    "imageUrl": "/practice/images/生成C罗图片 (12).png",
+    "tags": ["HTML", "经典", "足球之美"]
+  }
+] 
