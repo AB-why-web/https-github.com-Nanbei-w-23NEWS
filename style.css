@@ -1,0 +1,35 @@
+/* 基础样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 网页主体样式 */
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* 导航栏基础样式 */
+.navbar {
+    background-color: #004b8d; /* 民大主题蓝色 */
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* 响应式布局基础 */
+@media (max-width: 768px) {
+    .search-box {
+        width: 90% !important;
+    }
+    
+    .photo {
+        width: 100% !important;
+    }
+}

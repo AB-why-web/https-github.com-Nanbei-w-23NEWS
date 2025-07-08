@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语法练习</title>
+    <style>
+        /* 类和对象 */
+    </style>
+    <script>
+        // 1.定义一个类
+        class Student {
+            constructor(name,age,school,grade) {
+                this.name = name;
+                this.age = age;
+                this.school = school;
+                this.grade = grade;
+            }
+            learn(subject = '语文') {
+                console.log(`我是${this.name},我正在学习${subject}`)
+            }
+            exam() {
+                console.log(`我是${this.name},我正在考试`)
+            }
+        }
+        // 2.创建对象
+        const student1 = new Student('李三',18,'北京大学','大一');
+        const student2 = new Student('李四',19,'清华大学','大二');
+    </script>
+</head>
+<body>
+    <h1>学生信息展示</h1>
+    <div id="output"></div>
+    <div id="console-output" style="white-space: pre-wrap; margin-top: 20px;"></div>
+    <script>
+        // 重写console.log使其同时显示在页面上
+        const originalConsoleLog = console.log;
+        console.log = function(...args) {
+            originalConsoleLog.apply(console, args);
+            document.getElementById('console-output').innerHTML += 
+                args.join(' ') + '\n';
+        };
+        
+        // 显示学生信息
+        document.getElementById('output').innerHTML = `
+            <p>${student1.name} - ${student1.school}</p>
+            <p>${student2.name} - ${student2.school}</p>
+        `;
+        class Undergradduate extends Student {
+            constructor(name,age,school,grade,perfect,honor,major) {
+                super(name,age,school,grade);
+                this.perfect = perfect;
+                this.honor = honor; 
+                this.major = major;
+            }
+            intern(corp){
+                console.log(`我是${this.name}在${corp}实习，获得100￥`);
+                console.log(super.exam());
+            }
+        }
+        let 张三 = new Undergradduate('李三',18,'北京大学','大一',true,true,'计算机科学与技术');
+        张三.intern('百度');
+        张三.learn('汉语言');
+
+        // 回调函数
+        console.log("22")
+         
+        setTimeout(function () {  
+            console.log("11")
+        }, 1000)
+
+        console.log("33")   
+        console.log("44")
+    </script>
+</body>
+      <!-- 原有内容保持不变... -->
+      
+      <!-- 添加这个元素 -->
+      <p id="anotherp" style="cursor:pointer">点击这里</p>
+      <h1 id="demo">学生信息展示</h1>
+      
+      <script>
+          // 原有脚本保持不变...
+          
+          // 确保这个在body闭合前
+          let myh2 = document.getElementById("anotherp");
+          myh2.onclick = function() {
+              alert("你好");
+          }
+      </script>
+</body>
+</html>

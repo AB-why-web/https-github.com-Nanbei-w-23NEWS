@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 核心概念：背景、盒模型、布局、动画</title>
+    <style>
+        body {
+            background-color: rgb(220, 220, 245)
+        }
+        h1 {
+            background-image: url();
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            text-align: center;
+                }
+    </style>
+</head>
+<body>
+    <h1>css 核心概念：背景、盒模型、布局、动画</h1>
+    <div>
+        <h2>背景</h2>
+        《css 权威指南》
+        <ul>
+            <li>背景颜色</li>
+            <li>背景图像</li>
+            <li>背景平铺</li>
+    </section>
+    <section>
+        <h2>盒模型</h2>
+        <style>
+           .box {
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            border: 10px solid #000;
+            margin: 20px;
+            box-sizing: border-box;
+           
+          }
+        </style>
+        <div class="box">这是一个有内边距、边框和外边距的盒子。
+        </div>
+            <h2>布局</h2>
+                <h3>display 的不同取值</h3>
+                <style>
+                    .display-demo p{
+                        display: inline;
+                        float: left;
+                        margin-right: 20px;
+                    }
+                </style>
+                <div class="display-demo">
+                    <p>段落1</p>
+                    <p>段落2</p>
+                    <p>段落3</p>
+                    <p style="display: none;">段4</p>
+                </div>
+                <h3>1234</h3>
+                <style>
+                    .float-demo p{
+                        float: left;
+                        margin-right: 30px;
+                    }
+           
+        </div>
+        </section>
+        <section>
+            <h2>动画</h2>
+            动画必须要有起始状态、结束状态、时长
+            <style>
+                <div class="animation-demo">
+                    <p>这是一个动画效果的段落。</p>
+                </div>
+                .animation-demo p {
+                    animation-name: fadeIn;
+                    animation-duration: 2s;
+                    animation-timing-function: ease-in-out;                         
+                }
+           
+</html>

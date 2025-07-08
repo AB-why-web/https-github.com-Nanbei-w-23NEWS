@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 核心语法学习--</title>
+    <script>
+        let a = 100
+        // alert(a)
+        console.log(a)
+        // 修复：添加分号以符合语法要求
+        api_key = 'ssssx-=-dddddd';
+        console.log(api_key);
+        console.log(api_key)
+        console.log('typeof a, typeof api_key',typeof true)  
+        let b = '1'
+        console.log(a + b) 
+        console.log(a + Number(b))
+        let c = '100'
+        console.log(a == c)
+        console.log(a ===b)
+        // 分支语句
+        let current_time = '11:40'
+        if(current_time == '12:20'){
+            console.log('来吧') 
+        } else {
+            console.log('来财，来财')
+        }
+        // for循环
+        for(let i = 1;i <=10; i++){
+            console.log(i)
+        }
+        //while循环
+        let hug = 60
+        // 修复：添加变量声明
+        while (hug > 0){
+            console.log('继续学习')
+            hug = hug - 10
+        } 
+        // 函数
+        function intro(){
+            console.log('我是函数')
+        }
+        intro()
+        function intro2(content){
+            console.log('以下是我的自我介绍：' + String(content))
+        }
+        intro2('这是我传入的参数')
+        function intro3(content1 = '',content2 = '') {
+            console.log(`自我介绍：${String(content1)} ${String(content2)}`);
+        }
+        intro3('参数1','参数2',444)
+        // 更规范的函数写法
+        function intro4(content1, content2, content3) {
+        const message = [content1, content2, content3].map(String).join(' ');
+            console.log(`自我介绍：${message}`);
+}
+    </script>
+</head>
+
+<body>
+    <!-- 添加基础页面内容 -->
+    <h1>JavaScript 核心语法练习</h1>
+    <p>请按 F12 打开控制台查看输出结果</p>
+</body>
+</html>  <!-- 添加闭合标签 -->
